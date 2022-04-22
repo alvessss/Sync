@@ -1,5 +1,7 @@
 <h2>A beautiful way to stack async code</h2>
 
+[![](https://jitpack.io/v/alvessss/Sync.svg)](https://jitpack.io/#alvessss/Sync)
+
         countFunction(10).doAfter( ()-> {
             Log.i(TAG, "10 seconds have surely passed");
         });
